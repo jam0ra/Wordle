@@ -40,7 +40,6 @@ public class Character extends JTextField {
                 if (e.getKeyCode() == KeyEvent.VK_BACK_SPACE){
                     e.getComponent().transferFocusBackward();
                 } else if (e.getKeyCode() != KeyEvent.VK_ENTER){
-                    System.out.println(e.getComponent());
                     e.getComponent().transferFocus();
                 }
             }
